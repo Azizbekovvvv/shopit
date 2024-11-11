@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+      <div class="logo">Shop.IT</div>
+        <div class="burger-menu" id="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-menu" id="nav-menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Abaut us</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">contacs</a></li>
+            </ul>
+        </nav>
+  </header>
+  <main>
+    <div class="products">
+        <div class="card">
+    <h3>Samsung s20 ultra</h3>
+    <img src="https://cdn.alloallo.media/catalog/product/samsung/galaxy-s/galaxy-s20-ultra/galaxy-s20-ultra-cosmic-gray.jpg" alt="">
+    <button>Купить</button>
+        </div>
+        <div class="card">
+            <h3>Iphone 16 pro max</h3>
+            <img src="https://external-preview.redd.it/leaked-design-shows-the-iphone-16-pro-max-with-very-thin-v0-aE3SUz2dITxyrsqdCo3hPuRqXwOdstRnQoU_J50KNY8.jpg?auto=webp&s=f4be464e4fc1febc3998c8ff4b7043567c03332a" alt=""
+            />
+            <button>Купить</button>
+        </div>
+        <div class="card">
+
+            <h3>Xiaomi 14 ultra</h3>
+            <img src="https://m.media-amazon.com/images/I/51XJHAjKJmL.jpg" alt=""
+            />
+            <button>Купить</button>
+        </div>
+    </div >
+  </main> 
+  <script>
+    const bmenu = document.getElementById("burger-menu");
+    const nmenu = document.getElementById("nav-menu");
+    bmenu.addEventListener("click", () =>{
+        nmenu.classList.toggle("show")
+    })
+  </script> 
+</body>
+</html> 
